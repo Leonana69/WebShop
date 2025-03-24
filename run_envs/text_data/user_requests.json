@@ -1,0 +1,920 @@
+[
+    {
+        "from": "human",
+        "value": "I'm searching for a 16GB RAM, 512GB SSD, Intel i7 laptop, preferably under 1000 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "laptop",
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i7"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a black leather office chair with ergonomic design and adjustable height, budget is 200 dollars or less. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "office chair",
+            "black leather",
+            "ergonomic design"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a 4K UHD smart TV, at least 55 inches, from a reputable brand, and under 700 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "smart TV",
+            "4K UHD",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a pair of wireless noise-cancelling headphones, with a battery life of over 20 hours, and priced below 150 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "headphones",
+            "wireless",
+            "noise-cancelling"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a stainless steel, double door refrigerator with a water dispenser, and price should be under 1200 dollars. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "refrigerator",
+            "stainless steel",
+            "double door"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a high-quality, stainless steel chef knife with an ergonomic handle, priced under 50 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "chef knife",
+            "stainless steel",
+            "ergonomic handle"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a pair of wireless noise-cancelling headphones with a battery life of at least 30 hours. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "wireless headphones",
+            "noise-cancelling",
+            "30 hours battery life"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a durable yoga mat that is eco-friendly and non-slip, priced below 40 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "yoga mat",
+            "eco-friendly",
+            "non-slip"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to find a compact, portable air purifier suitable for a small room, under 100 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "air purifier",
+            "compact",
+            "portable"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a lightweight, waterproof hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "hiking backpack",
+            "lightweight",
+            "waterproof"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a 4K ultra HD smart TV with a screen size of 55 inches and a price under 500 dollars. Please check the first 25 search results in parallel.",
+        "keywords": [
+            "4K ultra HD",
+            "smart TV",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "stainless steel",
+            "coffee maker",
+            "built-in grinder"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for noise-cancelling over-ear headphones with Bluetooth connectivity and a battery life of at least 30 hours. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "noise-cancelling",
+            "over-ear headphones",
+            "Bluetooth connectivity"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a compact, portable air purifier suitable for rooms up to 200 square feet. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "compact",
+            "portable air purifier",
+            "200 square feet"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a high-capacity external hard drive with 2TB storage and USB 3.0 support. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "high-capacity",
+            "external hard drive",
+            "2TB storage"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a high-performance gaming laptop with at least 16GB RAM and an RTX 3060 graphics card, priced under 1500 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "gaming laptop",
+            "16GB RAM",
+            "RTX 3060"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a stainless steel, double-wall insulated water bottle that can hold at least 1 liter and is under 30 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "stainless steel water bottle",
+            "double-wall insulated",
+            "1 liter"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a queen-size memory foam mattress with cooling gel technology, priced below 500 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "queen-size mattress",
+            "memory foam",
+            "cooling gel"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a noise-cancelling over-ear Bluetooth headphones with a battery life of over 30 hours, costing less than 200 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "noise-cancelling headphones",
+            "over-ear",
+            "Bluetooth"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a smart LED TV with 4K resolution and at least a 55-inch screen, under 700 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "smart LED TV",
+            "4K resolution",
+            "55-inch"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-quality, noise-cancelling over-ear headphones with Bluetooth connectivity and a budget of up to 150.00 dollars. Please check the first 25 search results in parallel.",
+        "keywords": [
+            "noise-cancelling headphones",
+            "over-ear",
+            "Bluetooth"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a compact, lightweight, and portable camping tent for 2 people, priced below 100.00 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "camping tent",
+            "compact",
+            "lightweight",
+            "portable"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a stainless steel, dishwasher-safe kitchen knife set with ergonomic handles, under 75.00 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "kitchen knife set",
+            "stainless steel",
+            "dishwasher-safe",
+            "ergonomic handles"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want a reliable, fast-charging USB-C power bank with a capacity of at least 20,000mAh, for less than 50.00 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "USB-C power bank",
+            "fast-charging",
+            "20,000mAh"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a smart, programmable thermostat compatible with Alexa, priced up to 200.00 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "smart thermostat",
+            "programmable",
+            "Alexa compatible"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-resolution, portable Bluetooth speaker with a battery life of over 10 hours. Please check the first 25 search results in parallel.",
+        "keywords": [
+            "Bluetooth speaker",
+            "high-resolution",
+            "portable"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set under 50 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "kitchen knife set",
+            "stainless steel",
+            "dishwasher-safe"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a 4K UHD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "smart TV",
+            "4K UHD",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want a lightweight, foldable travel stroller suitable for infants up to 3 years old. Please check the first 35 search results in parallel.",
+        "keywords": [
+            "travel stroller",
+            "lightweight",
+            "foldable"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Searching for a vegan, cruelty-free facial moisturizer with SPF 30 or higher. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "facial moisturizer",
+            "vegan",
+            "SPF 30"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-quality, noise-cancelling Bluetooth headphones with a battery life of over 20 hours. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "Bluetooth headphones",
+            "noise-cancelling",
+            "battery life"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set with at least 6 pieces. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "kitchen knife set",
+            "stainless steel",
+            "dishwasher-safe"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a 4K Ultra HD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "4K Ultra HD smart TV",
+            "55 inches",
+            "HDR support"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to find a lightweight, waterproof hiking backpack with a capacity of 30 liters. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "hiking backpack",
+            "lightweight",
+            "waterproof"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Searching for a compact, energy-efficient air purifier suitable for a room size of 200 square feet. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "air purifier",
+            "compact",
+            "energy-efficient"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a high-quality, noise-cancelling wireless headphone with a battery life over 20 hours. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "noise-cancelling",
+            "wireless headphone",
+            "battery life over 20 hours"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a durable, water-resistant hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "hiking backpack",
+            "water-resistant",
+            "30 liters"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a compact, lightweight laptop with an Intel i7 processor and at least 16GB RAM. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "compact laptop",
+            "Intel i7",
+            "16GB RAM"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm trying to find a vegan, cruelty-free skincare set suitable for sensitive skin. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "vegan skincare",
+            "cruelty-free",
+            "sensitive skin"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to buy a 4K Ultra HD smart TV with a screen size of at least 55 inches. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "4K Ultra HD",
+            "smart TV",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need to find a stainless steel, double-walled insulated water bottle with a capacity of 32 oz. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "water bottle",
+            "stainless steel",
+            "32 oz"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a wireless noise-cancelling over-ear headphone with a battery life of more than 20 hours. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "wireless headphone",
+            "noise-cancelling",
+            "over-ear"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a smart LED TV with a screen size of 55 inches and 4K resolution. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "smart LED TV",
+            "55 inches",
+            "4K resolution"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to buy a compact, lightweight, and portable camping tent for 2 people. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "camping tent",
+            "compact",
+            "2 people"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a high-quality, ergonomic office chair with lumbar support and adjustable armrests. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "office chair",
+            "ergonomic",
+            "lumbar support"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder, under 150 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "coffee maker",
+            "stainless steel",
+            "12-cup",
+            "programmable",
+            "built-in grinder"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a pair of men's size 10, black leather waterproof hiking boots, priced below 120 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "hiking boots",
+            "men's size 10",
+            "black leather",
+            "waterproof"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a 55-inch 4K Ultra HD smart TV with HDR support, costing less than 500 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "smart TV",
+            "55-inch",
+            "4K Ultra HD",
+            "HDR support"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a Bluetooth wireless noise-cancelling over-ear headphone, available for under 200 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "headphone",
+            "Bluetooth",
+            "wireless",
+            "noise-cancelling",
+            "over-ear"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a queen-size, memory foam mattress with cooling gel, priced below 400 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "memory foam mattress",
+            "queen-size",
+            "cooling gel"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need to find a high-quality, wireless noise-cancelling headphone under 150 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "wireless headphone",
+            "noise-cancelling",
+            "under 150 dollars"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a durable, non-stick frying pan with a diameter of 12 inches, preferably under 40 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "non-stick frying pan",
+            "12 inches",
+            "under 40 dollars"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a compact, lightweight travel backpack suitable for hiking, with a capacity of at least 30 liters. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "travel backpack",
+            "lightweight",
+            "30 liters"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to buy a reliable, fast-charging USB-C cable that's at least 6 feet long. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "USB-C cable",
+            "fast-charging",
+            "6 feet"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Could you find a stylish, waterproof smartwatch compatible with Android, ideally under 200 dollars? Please check the first 40 search results in parallel.",
+        "keywords": [
+            "waterproof smartwatch",
+            "Android compatible",
+            "under 200 dollars"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, 12-cup capacity coffee maker with a programmable timer. Please check the first 25 search results in parallel.",
+        "keywords": [
+            "coffee maker",
+            "stainless steel",
+            "12-cup capacity"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a pair of wireless, over-ear headphones with noise cancelling feature and battery life over 20 hours. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "wireless headphones",
+            "over-ear",
+            "noise cancelling"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a queen size, memory foam mattress with a cooling gel layer and firmness level medium. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "memory foam mattress",
+            "queen size",
+            "cooling gel"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to find a 4K Ultra HD, 55-inch smart TV with built-in Alexa and HDR support. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "4K Ultra HD TV",
+            "55-inch",
+            "smart TV"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a lightweight, portable camping tent for 3 people, with waterproof material. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "camping tent",
+            "lightweight",
+            "3 people"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, dishwasher safe, 12-piece kitchen knife set with a wooden block. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "kitchen knife set",
+            "stainless steel",
+            "dishwasher safe"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a waterproof, bluetooth speaker with at least 20 hours of battery life, and it should be portable. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "bluetooth speaker",
+            "waterproof",
+            "portable"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a king-size, hypoallergenic, memory foam mattress topper with cooling gel. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "memory foam mattress topper",
+            "king-size",
+            "cooling gel"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a compact, lightweight, foldable treadmill with an LED display. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "foldable treadmill",
+            "compact",
+            "LED display"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want a high-capacity, external hard drive with at least 2TB of storage and USB 3.0 compatibility. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "external hard drive",
+            "2TB",
+            "USB 3.0"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a durable, waterproof hiking backpack with a capacity of 50 liters, under 100 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "hiking backpack",
+            "waterproof",
+            "50 liters"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a pair of noise-cancelling over-ear headphones with Bluetooth connectivity, priced below 150 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "noise-cancelling headphones",
+            "over-ear",
+            "Bluetooth"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a 4K ultra HD smart TV, screen size between 55 and 65 inches, and cost less than 600 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "4K ultra HD TV",
+            "smart TV",
+            "55 to 65 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a stainless steel, double-wall insulated water bottle, with a capacity of 32 ounces, under 25 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "insulated water bottle",
+            "stainless steel",
+            "32 ounces"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Searching for a compact, lightweight laptop with at least 8GB RAM and an SSD, priced under 700 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "compact laptop",
+            "8GB RAM",
+            "SSD"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-capacity, portable power bank with fast charging capabilities and a price under 50 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "power bank",
+            "high-capacity",
+            "fast charging"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a stainless steel, non-stick frying pan with a diameter of 12 inches. The budget is 30 dollars or less. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "frying pan",
+            "stainless steel",
+            "non-stick"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for noise-cancelling, over-ear headphones that are wireless and within a 100-dollar range. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "headphones",
+            "noise-cancelling",
+            "wireless"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I am interested in a waterproof, digital wristwatch with a heart rate monitor, priced below 70 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "wristwatch",
+            "waterproof",
+            "heart rate monitor"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want a compact, lightweight travel backpack with multiple compartments, and it should cost less than 40 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "travel backpack",
+            "compact",
+            "lightweight"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a wireless noise-cancelling over-ear headphone with a battery life of more than 20 hours, preferably under 150 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "wireless headphone",
+            "noise-cancelling",
+            "over-ear"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a 4K ultra HD smart TV with a screen size of at least 55 inches, and price below 600 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "4K TV",
+            "smart TV",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a compact digital camera with at least 20 megapixels resolution and optical zoom, under 300 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "compact camera",
+            "20 megapixels",
+            "optical zoom"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want a stainless steel, dishwasher-safe cookware set with non-stick coating, budget is 200 dollars or less. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "cookware set",
+            "stainless steel",
+            "non-stick"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Find me a gaming laptop with at least 16GB RAM, an i7 processor, and a dedicated graphics card, for under 1000 dollars. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "gaming laptop",
+            "16GB RAM",
+            "i7 processor"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a lightweight, black, waterproof backpack with a capacity of 20 liters for under 50.00 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "backpack",
+            "lightweight",
+            "black",
+            "waterproof",
+            "20 liters"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a pair of noise-canceling, over-ear headphones with Bluetooth connectivity, priced under 150.00 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "headphones",
+            "noise-canceling",
+            "over-ear",
+            "Bluetooth"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a stainless steel, 12-piece cookware set that is dishwasher safe and costs less than 200.00 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "cookware set",
+            "stainless steel",
+            "12-piece",
+            "dishwasher safe"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to find a 55-inch, 4K Ultra HD Smart TV with HDR support, priced below 500.00 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "Smart TV",
+            "55-inch",
+            "4K Ultra HD",
+            "HDR"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a pair of running shoes, size 10, with arch support and a price tag of under 100.00 dollars. Please check the first 20 search results in parallel.",
+        "keywords": [
+            "running shoes",
+            "size 10",
+            "arch support"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-resolution, wireless, noise-cancelling headphone under 150 dollars. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "wireless headphone",
+            "noise-cancelling",
+            "high-resolution"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a durable, waterproof, and lightweight hiking backpack with a capacity of 40 liters. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "hiking backpack",
+            "waterproof",
+            "40 liters"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a smart, energy-efficient LED bulb compatible with Alexa, priced below 20 dollars. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "LED bulb",
+            "smart",
+            "Alexa compatible"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I want to find a compact, stainless steel, dual-zone wine cooler fridge for under 300 dollars. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "wine cooler fridge",
+            "compact",
+            "stainless steel"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a fast-charging, portable power bank with a capacity of at least 20,000mAh, and it should be under 50 dollars. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "power bank",
+            "fast-charging",
+            "20,000mAh"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a high-quality, noise-cancelling wireless headphone with a battery life of at least 20 hours. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "wireless headphone",
+            "noise-cancelling",
+            "battery life"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a compact, lightweight travel backpack that is water-resistant and under 50 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "travel backpack",
+            "compact",
+            "lightweight",
+            "water-resistant"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a 4K Ultra HD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "4K Ultra HD smart TV",
+            "55 inches",
+            "HDR support"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm in the market for a stainless steel, double-walled insulated water bottle that holds at least 32 ounces. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "insulated water bottle",
+            "stainless steel",
+            "32 ounces"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Seeking a durable, anti-slip yoga mat that is eco-friendly and comes in blue. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "yoga mat",
+            "anti-slip",
+            "eco-friendly",
+            "blue"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm searching for a high-performance gaming laptop with at least 16GB RAM and a dedicated graphics card. Please check the first 50 search results in parallel.",
+        "keywords": [
+            "gaming laptop",
+            "16GB RAM",
+            "dedicated graphics card"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I need a pair of noise-cancelling over-ear headphones, preferably from a top brand and under 200 dollars. Please check the first 30 search results in parallel.",
+        "keywords": [
+            "noise-cancelling headphones",
+            "over-ear",
+            "top brand"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "Looking for a waterproof and breathable men's hiking jacket, size medium. Please check the first 40 search results in parallel.",
+        "keywords": [
+            "hiking jacket",
+            "waterproof",
+            "breathable",
+            "men's",
+            "medium"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm interested in a smart TV with 4K resolution and a screen size of at least 55 inches. Please check the first 60 search results in parallel.",
+        "keywords": [
+            "smart TV",
+            "4K resolution",
+            "55 inches"
+        ]
+    },
+    {
+        "from": "human",
+        "value": "I'm looking for a cordless vacuum cleaner with a strong suction power and a long battery life. Please check the first 70 search results in parallel.",
+        "keywords": [
+            "cordless vacuum cleaner",
+            "strong suction",
+            "long battery life"
+        ]
+    }
+]
