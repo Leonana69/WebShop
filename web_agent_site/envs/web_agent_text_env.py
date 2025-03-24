@@ -90,6 +90,7 @@ class WebAgentTextEnv(gym.Env):
         Arguments:
         action (`str`): An action should be of the following structure:
           - search[keywords]
+          - search_range[keywords, range]
           - click[value]
         If action not valid, perform nothing.
         """
@@ -104,6 +105,11 @@ class WebAgentTextEnv(gym.Env):
             action_arg is not None and 
             action_arg != ''):
             status = self.browser.search(action_arg)
+        elif (action_name == 'search_range' and 
+            action_arg is not None and 
+            action_arg != ''):
+            k, r = action_arg.rsplit(',', 1)
+            status = self.browser.search_range(k, r)
         elif (action_name == 'click' and 
               action_arg in self.text_to_clickable.keys() and 
               action_arg != 'search'):
@@ -392,6 +398,56 @@ class SimServer:
         return html, url
     
     @app.route('/', methods=['GET', 'POST'])
+    def search_with_range(self, session_id, keywords, start_idx=0, end_idx=None):
+        """Initialize session and return the search results page"""
+        session = self.user_sessions[session_id]
+        assert isinstance(keywords, list)
+        page = 1
+        session["page"] = page
+        session["keywords"] = keywords
+        session["actions"]["search"] += 1
+        session["asin"] = None
+        session["options"] = {}
+
+        print(f'Searching {keywords} with range: {start_idx} to {end_idx}')
+
+        # Perform the search
+        if isinstance(keywords, str):
+            keywords = keywords.split(' ')
+        
+        old_time = time.time()
+        top_n_products = get_top_n_product_from_keywords(
+            keywords,
+            self.search_engine,
+            self.all_products,
+            self.product_item_dict,
+        )
+        self.search_time += time.time() - old_time
+
+        if end_idx is None or end_idx > len(top_n_products):
+            sliced_results = top_n_products[start_idx-1:]
+        else:
+            sliced_results = top_n_products[start_idx-1:end_idx]
+        
+        url = (
+            f'{self.base_url}/search_results/{session_id}/'
+            f'{"+".join(keywords)}/{start_idx}-{end_idx}'
+        )
+        
+        # Update the page source to show only the sliced results
+        html = map_action_to_html(
+            'search',
+            session_id=session_id,
+            products=sliced_results,  # Use the sliced results instead of page-based results
+            keywords=session["keywords"],
+            page=page,
+            total=len(top_n_products),
+            instruction_text="",
+        )
+        
+        return html, url
+    
+    @app.route('/', methods=['GET', 'POST'])
     def item_page(self, session_id, **kwargs):
         """Render and return the HTML for a product item page"""
         session = self.user_sessions[session_id]
@@ -535,8 +591,17 @@ class SimServer:
                     }
                 )
             elif 'keywords' in kwargs:
-                # If search keywords are available, run a search
-                html, url = self.search_results(session_id, **kwargs)
+                if 'range' in kwargs:
+                    range = kwargs['range'].split('-')
+                    # If range is specified, search with range and return sliced results
+                    html, url = self.search_with_range(session_id,
+                        kwargs['keywords'],
+                        start_idx=int(range[0]),
+                        end_idx=int(range[1])
+                    )
+                else:
+                    # If search keywords are available, run a search
+                    html, url = self.search_results(session_id, **kwargs)
             elif 'clickable_name' in kwargs:
                 clickable_name = kwargs['clickable_name'].lower()
                 if clickable_name == END_BUTTON.lower():
@@ -637,5 +702,18 @@ class SimBrowser:
                 self.session_id,
                 current_url=self.current_url,
                 keywords=keywords,
+        )
+        return status
+    
+    def search_range(self, keywords, range):
+        """Wrapper for `receive` handler for performing search action on current page"""
+        if isinstance(keywords, str):
+            keywords = keywords.split(' ')
+        self.page_source, self.current_url, status = \
+            self.server.receive(
+                self.session_id,
+                current_url=self.current_url,
+                keywords=keywords,
+                range=range,
         )
         return status

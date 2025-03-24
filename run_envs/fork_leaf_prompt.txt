@@ -1,0 +1,79 @@
+You are a personal assistant AI helping a user to generate the trainning dataset for a recommendation system. You should generate a response to the user's request. The user's request is about finding a specific product on an e-commerce platform using parallel search. There will be two parallel tasks to analyze the search results and their response is included in the input. The main sequence already distributes the search results to the children and gathers the responses. You as a child should call the search API with correct keywords and then analyze the search results step by step to provide a final recommendation based on the user's request. Please respond in json format.
+
+# Example 1:
+## Input:
+{
+    "conversations": [
+        {
+            "from": "human",
+            "value": "I'm looking for x-large, red color women faux fur lined winter warm jacket coat, and price lower than 80.00 dollars. Please check the first 40 search results in parallel."
+        },
+        {
+            "from": "gpt",
+            "value": "Based on user's request, I'll use jacket coat as keywords to search for the products. I'll split the search into parallel tasks to speed up processing. As the child_0, 1-20 is too many results to analyze at once and I'll split the search into smaller tasks. As the child_00, 1-10 is too many results to analyze at once and I'll further split the search into smaller tasks. <|fork_init, child_000|> Child_000 will analyze results 1-5. <|fork_start|>"
+        }
+    ],
+    "observation": "[button] B09KP78G37 [button_]\nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat\n$47.41 to $59.07\n\n[button] B098XT346Y [button_]\nFjackets Real Lambskin Sherpa Jacket - Mens Leather Jacket\n$187.0 to $219.0\n\n[button] B09GLVMLMS [button_]\nAnniou Electric Heated Jacket Adjustable Temp USB Heated Coat Winter Hooded Jacket Men Women\n$64.99 to $114.99\n\n[button] B07B9QWJW9 [button_]\n1000ft BLACK MADE IN USA RG-11 COMMSCOPE F1177TSEF DIRECT BURIAL TRISHIELD COAXIAL DROP CABLE 14AWG GEL COATED BRAIDS PE JACKET BURIED FLOODED UNDERGROUND COAX CABLE REEL (LOWER SIGNAL LOSS OVER RG6)\n$330.0\n\n[button] B07DKGJR74 [button_]\nAmazon Brand - Daily Ritual Women's 100% Cotton Oversized Fit V-Neck Pullover Sweater\n$20.66 to $29.2"
+}
+
+## Output:
+[
+    {
+        "from": "gpt",
+        "value": "As the child_000, I can handle the search results 1-5. Fetching the search results..."
+    },
+    {
+        "from": "function_call",
+        "value": "{\"name\": \"search_shop\", \"arguments\": {\"keywords\": \"jacket coat\", \"range\": \"1-5\"}}"
+    },
+    {
+        "from": "observation",
+        "value": "[button] B09KP78G37 [button_]\nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat\n$47.41 to $59.07\n\n[button] B098XT346Y [button_]\nFjackets Real Lambskin Sherpa Jacket - Mens Leather Jacket\n$187.0 to $219.0\n\n[button] B09GLVMLMS [button_]\nAnniou Electric Heated Jacket Adjustable Temp USB Heated Coat Winter Hooded Jacket Men Women\n$64.99 to $114.99\n\n[button] B07B9QWJW9 [button_]\n1000ft BLACK MADE IN USA RG-11 COMMSCOPE F1177TSEF DIRECT BURIAL TRISHIELD COAXIAL DROP CABLE 14AWG GEL COATED BRAIDS PE JACKET BURIED FLOODED UNDERGROUND COAX CABLE REEL (LOWER SIGNAL LOSS OVER RG6)\n$330.0\n\n[button] B07DKGJR74 [button_]\nAmazon Brand - Daily Ritual Women's 100% Cotton Oversized Fit V-Neck Pullover Sweater\n$20.66 to $29.2"
+    },
+    {
+        "from": "gpt",
+        "value": "\nTo find the best option for an x-large, red color women's faux fur lined winter warm jacket coat priced under $80.00, let's analyze the given options step by step:\n\n1. **B09KP78G37: Women Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat**\n   - **Price:** $47.41 to $59.07\n   - **Description:** This option fits the criteria. It is a women's faux fur lined jacket coat, suitable for winter, and the price range is well within the $80.00 limit.\n\n2. **B098XT346Y: Fjackets Real Lambskin Sherpa Jacket - Mens Leather Jacket**\n   - **Price:** $187.0 to $219.0\n   - **Description:** This is a men's leather jacket, not a women's faux fur lined jacket. It is also significantly over the $80.00 price limit. Therefore, it does not meet the criteria.\n\n3. **B09GLVMLMS: Anniou Electric Heated Jacket Adjustable Temp USB Heated Coat Winter Hooded Jacket Men Women**\n   - **Price:** $64.99 to $114.99\n   - **Description:** While this is a winter jacket that fits within the price range, it is not specifically a faux fur lined coat, and it includes features like electric heating, which may not be what you're looking for.\n\n4. **B07B9QWJW9: 1000ft BLACK MADE IN USA RG-11 COMMSCOPE F1177TSEF DIRECT BURIAL TRISHIELD COAXIAL DROP CABLE 14AWG GEL COATED BRAIDS PE JACKET BURIED FLOODED UNDERGROUND COAX CABLE REEL**\n   - **Price:** $330.0\n   - **Description:** This is not a clothing item, but rather a coaxial cable. It does not meet any of the criteria for a women's jacket.\n\n5. **B07DKGJR74: Amazon Brand - Daily Ritual Women's 100% Cotton Oversized Fit V-Neck Pullover Sweater**\n   - **Price:** $20.66 to $29.2\n   - **Description:** This is a sweater, not a winter coat, and it lacks faux fur lining, so it does not meet the criteria.\n<|join_init, child_000|>**Conclusion:**\nThe best option from the list that meets your criteria is **B09KP78G37**, the Women Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat. It fits the description, is within the price range, and is suitable for winter wear.<|join|>"
+    }
+]
+
+# Example 2:
+## Input:
+{
+    "conversations": [
+        {
+            "from": "human",
+            "value": "I'm looking for x-large, red color women faux fur lined winter warm jacket coat, and price lower than 80.00 dollars. Please check the first 40 search results in parallel."
+        },
+        {
+            "from": "gpt",
+            "value": "Based on user's request, I'll use jacket coat as keywords to search for the products. I'll split the search into parallel tasks to speed up processing. As the child_0, 1-20 is too many results to analyze at once and I'll split the search into smaller tasks. As the child_00, 1-10 is too many results to analyze at once and I'll further split the search into smaller tasks. <|fork_init, child_001|> Child_001 will analyze results 6-10. <|fork_start|>"
+        }
+    ],
+    "observation": "[button] B09QQP3356 [button_]\nHAUKLIE Men\'s Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops\n$10.99\n\n[button] B00ZDEDVBI [button_]\nStar Wars I Am Furry Chewbacca Womens Costume Zip-Up Jacket\n$69.99\n\n[button] B07V3WXX85 [button_]\nPUMA Men\'s Amplified Hooded Fleece Jacket\n$55.0\n\n[button] B09QYYN4S4 [button_]\nAUTOKOLA Portable & Practical Hooks, Vintage Style Cast Iron Wall-Mounted Coat Rack Coat Hooks Hat Hooks Hall Tree, 3 3/4", Coffee GG002\n$14.99\n\n[button] B08DXL22JN [button_]\nCicy Bell Womens Casual Blazers Open Front Long Sleeve Work Office Jackets Blazer\n$48.99"
+}
+
+## Output:
+[
+    {
+        "from": "gpt",
+        "value": "As the child_001, results 6-10 are small enough for me. Fetching the search results..."
+    },
+    {
+        "from": "function_call",
+        "value": "{\"name\": \"search_shop\", \"arguments\": {\"keywords\": \"jacket coat\", \"range\": \"6-10\"}}"
+    },
+    {
+        "from": "observation",
+        "value": "[button] B09QQP3356 [button_]\nHAUKLIE Men\'s Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops\n$10.99\n\n[button] B00ZDEDVBI [button_]\nStar Wars I Am Furry Chewbacca Womens Costume Zip-Up Jacket\n$69.99\n\n[button] B07V3WXX85 [button_]\nPUMA Men\'s Amplified Hooded Fleece Jacket\n$55.0\n\n[button] B09QYYN4S4 [button_]\nAUTOKOLA Portable & Practical Hooks, Vintage Style Cast Iron Wall-Mounted Coat Rack Coat Hooks Hat Hooks Hall Tree, 3 3/4", Coffee GG002\n$14.99\n\n[button] B08DXL22JN [button_]\nCicy Bell Womens Casual Blazers Open Front Long Sleeve Work Office Jackets Blazer\n$48.99"
+    },
+    {
+        "from": "gpt",
+        "value": "\nlet's analyze the provided options step by step:\n\n1. **B09QQP3356**\n   - Description: HAUKLIE Men's Sports Waffle Ribbed Polo Shirts\n   - Price: $10.99\n   - Analysis: This is a men's polo shirt, not a women's winter jacket, so it doesn't meet the criteria.\n\n2. **B00ZDEDVBI**\n   - Description: Star Wars I Am Furry Chewbacca Womens Costume Zip-Up Jacket\n   - Price: $69.99\n   - Analysis: This is a women's jacket, and it's priced under $80. However, it is a costume jacket, and it may not be suitable for winter warmth or faux fur lining.\n\n3. **B07V3WXX85**\n   - Description: PUMA Men's Amplified Hooded Fleece Jacket\n   - Price: $55.0\n   - Analysis: This is a men's fleece jacket, not a women's faux fur lined winter jacket, so it doesn't meet the criteria.\n\n4. **B09QYYN4S4**\n   - Description: AUTOKOLA Portable & Practical Hooks\n   - Price: $14.99\n   - Analysis: This is a coat rack, not a jacket, so it doesn't meet the criteria.\n\n5. **B08DXL22JN**\n   - Description: Cicy Bell Womens Casual Blazers\n   - Price: $48.99\n   - Analysis: This is a women's blazer, not a winter jacket, so it doesn't meet the criteria.\n\nBased on the analysis, none of the options provided meet the criteria of being an x-large, red color women's faux fur lined winter warm jacket coat priced under $80. You may want to continue your search with these specific details in mind.\n<|join_init, child_000|>**Conclusion:**\nNo good choice from my search.<|join|>"
+    }
+]
+
+# Task
+## Input:
+{user_request}
+
+## Output:

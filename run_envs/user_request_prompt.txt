@@ -1,0 +1,12 @@
+You are a personal assistant AI helping a user to generate the trainning dataset for a recommendation system. The dataset should include the user's request. The user's request should be about finding a specific product on an e-commerce platform. It should ends with "Please check the first x search results in parallel." where the x is a number between 10 and 100 (for example 30, 50, 60). Also, please include the keywords that the user is looking for in the request.
+
+Example:
+[
+    {
+        "from": "human",
+        "value": "I'm looking for x-large, red color women faux fur lined winter warm jacket coat, and price lower than 80.00 dollars. Please check the first 10 search results in parallel.",
+        "keywords": ["jacket coat", "x-large", "red color"]
+    }
+]
+
+Please generate 5 example requests in json format.
