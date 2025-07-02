@@ -10,8 +10,10 @@ from web_agent_site.utils import DEBUG_PROD_SIZE
 env = gym.make('WebAgentTextEnv-v0', observation_mode='text_rich', num_products=DEBUG_PROD_SIZE)
 env.reset()
 
+FILE_FOLDER = "text_data/"
+
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-CHAT_LOG_FILE = os.path.join(CURRENT_DIR, "data/chat_log.txt")
+CHAT_LOG_FILE = os.path.join(CURRENT_DIR, FILE_FOLDER + "chat_log.txt")
 
 def llm_request(prompt: str):
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -43,16 +45,16 @@ def generate_user_requests(n: int = 10):
         requests = requests + js
 
     print(requests)
-    with open('./data/user_requests.json', 'w') as f:
+    with open(FILE_FOLDER +'user_requests.json', 'w') as f:
         json.dump(requests, f, indent=4)
 
 def generate_main_responses():
-    with open('./data/user_requests.json') as f:
+    with open(FILE_FOLDER +'user_requests.json') as f:
         requests = json.load(f)
     with open('main_response_prompt.txt') as f:
         prompt = f.read()
 
-    with open('./data/main_responses.json', 'r') as f:
+    with open(FILE_FOLDER +'main_responses.json', 'r') as f:
         main_responses = json.loads(f.read())
 
     requests = requests[:50]
@@ -71,19 +73,30 @@ def generate_main_responses():
         js = json.loads(response.lstrip('```json').rstrip('```'))
         mr = {}
         mr["keywords"] = req['keywords']
-        mr["conversation"] = []
+        mr["conversations"] = []
         user_input = {"from": "human", "value": req['value']}
         gpt_output = {"from": "gpt", "value": js['response']}
-        mr["conversation"].append(user_input)
-        mr["conversation"].append(gpt_output)
+        mr["conversations"].append(user_input)
+        mr["conversations"].append(gpt_output)
         
         main_responses.append(mr)
 
         # save to file
-        with open('./data/main_responses.json', 'w') as f:
+        with open(FILE_FOLDER + 'main_responses.json', 'w') as f:
             json.dump(main_responses, f, indent=4)
     
+def process_main_responses():
+    with open(FILE_FOLDER + 'main_responses.json') as f:
+        main_responses = json.load(f)
     
+    processed_responses = []
+    for mr in main_responses:
+        mr.pop('keywords')
+        mr['tools'] = '[]'
+        processed_responses.append(mr)
+
+    with open(FILE_FOLDER + 'processed_main_responses.json', 'w') as f:
+        json.dump(processed_responses, f, indent=4)
 
 def _generate_fork_response(prompt, conv):
     k = ' '.join(conv['keywords'])
@@ -111,19 +124,19 @@ def generate_fork_responses(depth: int = 0):
         prompt = f.read()
 
     if depth == 0:
-        with open('./data/main_responses.json') as f:
+        with open(FILE_FOLDER + '/main_responses.json') as f:
             main_responses = json.load(f)
     else:
-        with open(f'./data/fork_responses_{depth}.json') as f:
+        with open(f'{FILE_FOLDER}fork_responses_{depth}.json') as f:
             main_responses = json.load(f)
 
-    with open(f'./data/fork_responses_{depth+1}.json', 'r') as f:
+    with open(f'{FILE_FOLDER}fork_responses_{depth+1}.json', 'r') as f:
         fork_response = json.loads(f.read())
     
     for mr in tqdm(main_responses):
-        print(">>> Generating fork responses for: ", mr['conversation'][0])
-        user_input = mr['conversation'][0]
-        s: str = mr['conversation'][1]['value']
+        print(">>> Generating fork responses for: ", mr['conversations'][0])
+        user_input = mr['conversations'][0]
+        s: str = mr['conversations'][1]['value']
 
         if depth > 0:
             f1 = s.find('<|fork_init')
@@ -146,24 +159,22 @@ def generate_fork_responses(depth: int = 0):
         keywords = mr['keywords']
 
         conv1 = copy.deepcopy(mr)
-        conv1['conversation'][1]['value'] = child1
+        conv1['conversations'][1]['value'] = child1
         rp = _generate_fork_response(prompt, conv1)
-        conv1['conversation'][1]['value'] = child1 + rp
+        conv1['conversations'][1]['value'] = child1 + rp
         conv1['keywords'] = keywords
 
         conv2 = copy.deepcopy(mr)
-        conv2['conversation'][1]['value'] = child2
+        conv2['conversations'][1]['value'] = child2
         rp = _generate_fork_response(prompt, conv2)
-        conv2['conversation'][1]['value'] = child2 + rp
+        conv2['conversations'][1]['value'] = child2 + rp
         conv2['keywords'] = keywords
 
         fork_response.append(conv1)
         fork_response.append(conv2)
 
-        with open(f'./data/fork_responses_{depth+1}.json', 'w') as f:
+        with open(f'{FILE_FOLDER}fork_responses_{depth+1}.json', 'w') as f:
             json.dump(fork_response, f, indent=4)
-    
-    
 
 def _generate_leaf_response(prompt, conv, search_range):
     k = ' '.join(conv['keywords'])
@@ -183,16 +194,16 @@ def generate_fork_leaf_responses(depth: int = 2):
     with open('./fork_leaf_prompt.txt') as f:
         prompt = f.read()
 
-    with open(f'./data/fork_responses_{depth}.json') as f:
+    with open(f'{FILE_FOLDER}fork_responses_{depth}.json') as f:
         fork_responses = json.load(f)
 
-    with open(f'./data/fork_leaf_responses.json', 'r') as f:
+    with open(f'{FILE_FOLDER}fork_leaf_responses.json', 'r') as f:
         fork_leaf_response = json.loads(f.read())
 
     for fr in tqdm(fork_responses):
-        print(">>> Generating fork leaf responses for: ", fr['conversation'][0])
-        user_input = fr['conversation'][0]
-        s: str = fr['conversation'][1]['value']
+        print(">>> Generating fork leaf responses for: ", fr['conversations'][0])
+        user_input = fr['conversations'][0]
+        s: str = fr['conversations'][1]['value']
 
         ff1 = s.find('<|fork_init')
         ff2 = s.find('<|fork_start|>', ff1+1)
@@ -216,25 +227,25 @@ def generate_fork_leaf_responses(depth: int = 2):
         keywords = fr['keywords']
 
         conv1 = copy.deepcopy(fr)
-        conv1['conversation'][1]['value'] = child1
+        conv1['conversations'][1]['value'] = child1
         rp = _generate_leaf_response(prompt, conv1, range1)
-        conv1['conversation'][1]['value'] = child1 + rp[0]['value']
-        conv1['conversation'] = conv1['conversation'] + rp[1:]
+        conv1['conversations'][1]['value'] = child1 + rp[0]['value']
+        conv1['conversations'] = conv1['conversations'] + rp[1:]
         # conv1['keywords'] = keywords
         conv1['tools'] = '[{\"name\": \"search_shop\", \"description\": \"Search for a range of items in shop database\", \"parameters\": {\"type\": \"object\", \"properties\": {\"keywords\": {\"type\": \"string\", \"description\": \"Item to search for\"}, \"range\": {\"type\": \"string\", \"description\": \"Range of results to return\"}}, \"required\": [\"keywords\", \"range\"]}}]'
 
         conv2 = copy.deepcopy(fr)
-        conv2['conversation'][1]['value'] = child2
+        conv2['conversations'][1]['value'] = child2
         rp = _generate_leaf_response(prompt, conv2, range2)
-        conv2['conversation'][1]['value'] = child2 + rp[0]['value']
-        conv2['conversation'] = conv2['conversation'] + rp[1:]
+        conv2['conversations'][1]['value'] = child2 + rp[0]['value']
+        conv2['conversations'] = conv2['conversations'] + rp[1:]
         # conv2['keywords'] = keywords
-        conv1['tools'] = '[{\"name\": \"search_shop\", \"description\": \"Search for a range of items in shop database\", \"parameters\": {\"type\": \"object\", \"properties\": {\"keywords\": {\"type\": \"string\", \"description\": \"Item to search for\"}, \"range\": {\"type\": \"string\", \"description\": \"Range of results to return\"}}, \"required\": [\"keywords\", \"range\"]}}]'
+        conv2['tools'] = '[{\"name\": \"search_shop\", \"description\": \"Search for a range of items in shop database\", \"parameters\": {\"type\": \"object\", \"properties\": {\"keywords\": {\"type\": \"string\", \"description\": \"Item to search for\"}, \"range\": {\"type\": \"string\", \"description\": \"Range of results to return\"}}, \"required\": [\"keywords\", \"range\"]}}]'
 
         fork_leaf_response.append(conv1)
         fork_leaf_response.append(conv2)
 
-        with open(f'./data/fork_leaf_responses.json', 'w') as f:
+        with open(f'{FILE_FOLDER}fork_leaf_responses.json', 'w') as f:
             json.dump(fork_leaf_response, f, indent=4)
 
 if __name__ == '__main__':
@@ -247,6 +258,7 @@ if __name__ == '__main__':
 
     ### Step 2: Generate main responses
     # generate_main_responses()
+    # process_main_responses()
 
     ### Step 3: Generate fork responses
     # generate_fork_responses(0)

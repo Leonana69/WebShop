@@ -1,6 +1,6 @@
 [
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a 16GB RAM, 512GB SSD, Intel i7 laptop, preferably under 1000 dollars. Please check the first 50 search results in parallel."
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a 16GB RAM, 512GB SSD, Intel i7 laptop, preferably under 1000 dollars. Please check the first 50 search results in parallel."
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a black leather office chair with ergonomic design and adjustable height, budget is 200 dollars or less. Please check the first 30 search results in parallel."
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a black leather office chair with ergonomic design and adjustable height, budget is 200 dollars or less. Please check the first 30 search results in parallel."
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a 4K UHD smart TV, at least 55 inches, from a reputable brand, and under 700 dollars. Please check the first 60 search results in parallel."
@@ -87,7 +87,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a 4K UHD smart TV, at least 55 inches, from a reputable brand, and under 700 dollars. Please check the first 60 search results in parallel."
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a pair of wireless noise-cancelling headphones, with a battery life of over 20 hours, and priced below 150 dollars. Please check the first 40 search results in parallel."
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a pair of wireless noise-cancelling headphones, with a battery life of over 20 hours, and priced below 150 dollars. Please check the first 40 search results in parallel."
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a stainless steel, double door refrigerator with a water dispenser, and price should be under 1200 dollars. Please check the first 70 search results in parallel."
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a stainless steel, double door refrigerator with a water dispenser, and price should be under 1200 dollars. Please check the first 70 search results in parallel."
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-quality, stainless steel chef knife with an ergonomic handle, priced under 50 dollars. Please check the first 20 search results in parallel."
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-quality, stainless steel chef knife with an ergonomic handle, priced under 50 dollars. Please check the first 20 search results in parallel."
@@ -206,7 +206,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a pair of wireless noise-cancelling headphones with a battery life of at least 30 hours. Please check the first 60 search results in parallel."
@@ -223,7 +223,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a pair of wireless noise-cancelling headphones with a battery life of at least 30 hours. Please check the first 60 search results in parallel."
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a durable yoga mat that is eco-friendly and non-slip, priced below 40 dollars. Please check the first 50 search results in parallel."
@@ -257,7 +257,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a durable yoga mat that is eco-friendly and non-slip, priced below 40 dollars. Please check the first 50 search results in parallel."
@@ -274,7 +274,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to find a compact, portable air purifier suitable for a small room, under 100 dollars. Please check the first 30 search results in parallel."
@@ -291,7 +291,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to find a compact, portable air purifier suitable for a small room, under 100 dollars. Please check the first 30 search results in parallel."
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a lightweight, waterproof hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel."
@@ -325,7 +325,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a lightweight, waterproof hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel."
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a 4K ultra HD smart TV with a screen size of 55 inches and a price under 500 dollars. Please check the first 25 search results in parallel."
@@ -359,7 +359,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a 4K ultra HD smart TV with a screen size of 55 inches and a price under 500 dollars. Please check the first 25 search results in parallel."
@@ -376,7 +376,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder. Please check the first 50 search results in parallel."
@@ -393,7 +393,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder. Please check the first 50 search results in parallel."
@@ -410,7 +410,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for noise-cancelling over-ear headphones with Bluetooth connectivity and a battery life of at least 30 hours. Please check the first 40 search results in parallel."
@@ -427,7 +427,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for noise-cancelling over-ear headphones with Bluetooth connectivity and a battery life of at least 30 hours. Please check the first 40 search results in parallel."
@@ -444,7 +444,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a compact, portable air purifier suitable for rooms up to 200 square feet. Please check the first 60 search results in parallel."
@@ -461,7 +461,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a compact, portable air purifier suitable for rooms up to 200 square feet. Please check the first 60 search results in parallel."
@@ -478,7 +478,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a high-capacity external hard drive with 2TB storage and USB 3.0 support. Please check the first 30 search results in parallel."
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a high-capacity external hard drive with 2TB storage and USB 3.0 support. Please check the first 30 search results in parallel."
@@ -512,7 +512,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-performance gaming laptop with at least 16GB RAM and an RTX 3060 graphics card, priced under 1500 dollars. Please check the first 50 search results in parallel."
@@ -529,7 +529,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-performance gaming laptop with at least 16GB RAM and an RTX 3060 graphics card, priced under 1500 dollars. Please check the first 50 search results in parallel."
@@ -546,7 +546,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a stainless steel, double-wall insulated water bottle that can hold at least 1 liter and is under 30 dollars. Please check the first 20 search results in parallel."
@@ -563,7 +563,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a stainless steel, double-wall insulated water bottle that can hold at least 1 liter and is under 30 dollars. Please check the first 20 search results in parallel."
@@ -580,7 +580,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a queen-size memory foam mattress with cooling gel technology, priced below 500 dollars. Please check the first 40 search results in parallel."
@@ -597,7 +597,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a queen-size memory foam mattress with cooling gel technology, priced below 500 dollars. Please check the first 40 search results in parallel."
@@ -614,7 +614,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a noise-cancelling over-ear Bluetooth headphones with a battery life of over 30 hours, costing less than 200 dollars. Please check the first 60 search results in parallel."
@@ -631,7 +631,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a noise-cancelling over-ear Bluetooth headphones with a battery life of over 30 hours, costing less than 200 dollars. Please check the first 60 search results in parallel."
@@ -648,7 +648,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a smart LED TV with 4K resolution and at least a 55-inch screen, under 700 dollars. Please check the first 30 search results in parallel."
@@ -665,7 +665,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a smart LED TV with 4K resolution and at least a 55-inch screen, under 700 dollars. Please check the first 30 search results in parallel."
@@ -682,7 +682,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-quality, noise-cancelling over-ear headphones with Bluetooth connectivity and a budget of up to 150.00 dollars. Please check the first 25 search results in parallel."
@@ -699,7 +699,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-quality, noise-cancelling over-ear headphones with Bluetooth connectivity and a budget of up to 150.00 dollars. Please check the first 25 search results in parallel."
@@ -716,7 +716,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a compact, lightweight, and portable camping tent for 2 people, priced below 100.00 dollars. Please check the first 50 search results in parallel."
@@ -734,7 +734,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a compact, lightweight, and portable camping tent for 2 people, priced below 100.00 dollars. Please check the first 50 search results in parallel."
@@ -752,7 +752,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a stainless steel, dishwasher-safe kitchen knife set with ergonomic handles, under 75.00 dollars. Please check the first 40 search results in parallel."
@@ -770,7 +770,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a stainless steel, dishwasher-safe kitchen knife set with ergonomic handles, under 75.00 dollars. Please check the first 40 search results in parallel."
@@ -788,7 +788,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a smart, programmable thermostat compatible with Alexa, priced up to 200.00 dollars. Please check the first 60 search results in parallel."
@@ -805,7 +805,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm interested in a smart, programmable thermostat compatible with Alexa, priced up to 200.00 dollars. Please check the first 60 search results in parallel."
@@ -822,7 +822,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-resolution, portable Bluetooth speaker with a battery life of over 10 hours. Please check the first 25 search results in parallel."
@@ -839,7 +839,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-resolution, portable Bluetooth speaker with a battery life of over 10 hours. Please check the first 25 search results in parallel."
@@ -856,7 +856,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set under 50 dollars. Please check the first 40 search results in parallel."
@@ -873,7 +873,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set under 50 dollars. Please check the first 40 search results in parallel."
@@ -890,7 +890,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a 4K UHD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 60 search results in parallel."
@@ -907,7 +907,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a 4K UHD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 60 search results in parallel."
@@ -924,7 +924,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want a lightweight, foldable travel stroller suitable for infants up to 3 years old. Please check the first 35 search results in parallel."
@@ -941,7 +941,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want a lightweight, foldable travel stroller suitable for infants up to 3 years old. Please check the first 35 search results in parallel."
@@ -958,7 +958,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Searching for a vegan, cruelty-free facial moisturizer with SPF 30 or higher. Please check the first 50 search results in parallel."
@@ -975,7 +975,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Searching for a vegan, cruelty-free facial moisturizer with SPF 30 or higher. Please check the first 50 search results in parallel."
@@ -992,7 +992,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-quality, noise-cancelling Bluetooth headphones with a battery life of over 20 hours. Please check the first 50 search results in parallel."
@@ -1009,7 +1009,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a high-quality, noise-cancelling Bluetooth headphones with a battery life of over 20 hours. Please check the first 50 search results in parallel."
@@ -1026,7 +1026,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set with at least 6 pieces. Please check the first 30 search results in parallel."
@@ -1043,7 +1043,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, dishwasher-safe kitchen knife set with at least 6 pieces. Please check the first 30 search results in parallel."
@@ -1060,7 +1060,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a 4K Ultra HD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 70 search results in parallel."
@@ -1077,7 +1077,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a 4K Ultra HD smart TV with a screen size of at least 55 inches and HDR support. Please check the first 70 search results in parallel."
@@ -1094,7 +1094,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to find a lightweight, waterproof hiking backpack with a capacity of 30 liters. Please check the first 60 search results in parallel."
@@ -1111,7 +1111,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to find a lightweight, waterproof hiking backpack with a capacity of 30 liters. Please check the first 60 search results in parallel."
@@ -1128,7 +1128,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Searching for a compact, energy-efficient air purifier suitable for a room size of 200 square feet. Please check the first 40 search results in parallel."
@@ -1145,7 +1145,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Searching for a compact, energy-efficient air purifier suitable for a room size of 200 square feet. Please check the first 40 search results in parallel."
@@ -1162,7 +1162,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-quality, noise-cancelling wireless headphone with a battery life over 20 hours. Please check the first 50 search results in parallel."
@@ -1179,7 +1179,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a high-quality, noise-cancelling wireless headphone with a battery life over 20 hours. Please check the first 50 search results in parallel."
@@ -1196,7 +1196,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a durable, water-resistant hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel."
@@ -1213,7 +1213,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a durable, water-resistant hiking backpack with a capacity of at least 30 liters. Please check the first 40 search results in parallel."
@@ -1230,7 +1230,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a compact, lightweight laptop with an Intel i7 processor and at least 16GB RAM. Please check the first 60 search results in parallel."
@@ -1247,7 +1247,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a compact, lightweight laptop with an Intel i7 processor and at least 16GB RAM. Please check the first 60 search results in parallel."
@@ -1264,7 +1264,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm trying to find a vegan, cruelty-free skincare set suitable for sensitive skin. Please check the first 30 search results in parallel."
@@ -1281,7 +1281,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm trying to find a vegan, cruelty-free skincare set suitable for sensitive skin. Please check the first 30 search results in parallel."
@@ -1298,7 +1298,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to buy a 4K Ultra HD smart TV with a screen size of at least 55 inches. Please check the first 70 search results in parallel."
@@ -1315,7 +1315,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to buy a 4K Ultra HD smart TV with a screen size of at least 55 inches. Please check the first 70 search results in parallel."
@@ -1332,7 +1332,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need to find a stainless steel, double-walled insulated water bottle with a capacity of 32 oz. Please check the first 20 search results in parallel."
@@ -1349,7 +1349,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need to find a stainless steel, double-walled insulated water bottle with a capacity of 32 oz. Please check the first 20 search results in parallel."
@@ -1366,7 +1366,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a wireless noise-cancelling over-ear headphone with a battery life of more than 20 hours. Please check the first 50 search results in parallel."
@@ -1383,7 +1383,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a wireless noise-cancelling over-ear headphone with a battery life of more than 20 hours. Please check the first 50 search results in parallel."
@@ -1400,7 +1400,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a smart LED TV with a screen size of 55 inches and 4K resolution. Please check the first 30 search results in parallel."
@@ -1417,7 +1417,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Looking for a smart LED TV with a screen size of 55 inches and 4K resolution. Please check the first 30 search results in parallel."
@@ -1434,7 +1434,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to buy a compact, lightweight, and portable camping tent for 2 people. Please check the first 40 search results in parallel."
@@ -1451,7 +1451,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want to buy a compact, lightweight, and portable camping tent for 2 people. Please check the first 40 search results in parallel."
@@ -1468,7 +1468,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a high-quality, ergonomic office chair with lumbar support and adjustable armrests. Please check the first 60 search results in parallel."
@@ -1485,7 +1485,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a high-quality, ergonomic office chair with lumbar support and adjustable armrests. Please check the first 60 search results in parallel."
@@ -1502,7 +1502,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder, under 150 dollars. Please check the first 20 search results in parallel."
@@ -1521,7 +1521,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a stainless steel, 12-cup programmable coffee maker with a built-in grinder, under 150 dollars. Please check the first 20 search results in parallel."
@@ -1540,7 +1540,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a pair of men's size 10, black leather waterproof hiking boots, priced below 120 dollars. Please check the first 30 search results in parallel."
@@ -1558,7 +1558,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I need a pair of men's size 10, black leather waterproof hiking boots, priced below 120 dollars. Please check the first 30 search results in parallel."
@@ -1576,7 +1576,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a 55-inch 4K Ultra HD smart TV with HDR support, costing less than 500 dollars. Please check the first 40 search results in parallel."
@@ -1594,7 +1594,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm looking for a 55-inch 4K Ultra HD smart TV with HDR support, costing less than 500 dollars. Please check the first 40 search results in parallel."
@@ -1612,7 +1612,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a Bluetooth wireless noise-cancelling over-ear headphone, available for under 200 dollars. Please check the first 50 search results in parallel."
@@ -1631,7 +1631,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "Find me a Bluetooth wireless noise-cancelling over-ear headphone, available for under 200 dollars. Please check the first 50 search results in parallel."
@@ -1650,7 +1650,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a queen-size, memory foam mattress with cooling gel, priced below 400 dollars. Please check the first 60 search results in parallel."
@@ -1667,7 +1667,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I'm searching for a queen-size, memory foam mattress with cooling gel, priced below 400 dollars. Please check the first 60 search results in parallel."
@@ -1684,7 +1684,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want a reliable, fast-charging USB-C power bank with a capacity of at least 20,000mAh, for less than 50.00 dollars. Please check the first 30 search results in parallel."
@@ -1701,7 +1701,7 @@
         ]
     },
     {
-        "conversation": [
+        "conversations": [
             {
                 "from": "human",
                 "value": "I want a reliable, fast-charging USB-C power bank with a capacity of at least 20,000mAh, for less than 50.00 dollars. Please check the first 30 search results in parallel."
